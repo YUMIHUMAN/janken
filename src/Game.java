@@ -7,6 +7,8 @@ public class Game {
 
     // 1: p1の勝ち
 
+
+
     public int judge(Player p1, Player p2) {
 
         //TODO:nullチェック
@@ -14,4 +16,5 @@ public class Game {
         return p1.getHand().compare(p2.getHand());
 
     }
+    //あ
 }
